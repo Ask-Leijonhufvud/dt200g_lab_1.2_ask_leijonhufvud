@@ -82,3 +82,8 @@ footer {
         justify-content: space-between;
     }
 }
+
+/* pad text left/right */
+p, h1 {
+    padding: 0px 8px;
+}
