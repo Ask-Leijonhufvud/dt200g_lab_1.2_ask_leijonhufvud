@@ -4,3 +4,8 @@
     --foreground-primary: #ffffff;
     --foreground-secondary: #00ffff;
 }
+
+body {
+    background-color: var(--background-primary);
+    color: var(--foreground-primary);
+}
