@@ -22,3 +22,14 @@ a {
 header, footer {
     background-color: var(--background-secondary);
 }
+
+/* HEADER */
+header nav div {
+    font-size: larger;
+    padding: 4px;
+    border-top: 1px solid var(--foreground-primary);
+}
+/* aktuella sidan */
+header nav > div {
+    background-color: var(--background-primary);
+}
