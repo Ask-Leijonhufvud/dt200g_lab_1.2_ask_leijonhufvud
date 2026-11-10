@@ -23,6 +23,9 @@ footer {
 header {
   border-bottom: 2px solid var(--foreground-primary);
 }
+footer {
+    border-top: 2px solid var(--foreground-primary);
+}
 
 /* HEADER */
 header nav div {
