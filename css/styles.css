@@ -5,14 +5,11 @@
     --foreground-secondary: #00ffff;
 }
 
-/* set primary colours, replace margin around body with padding */
+/* set primary colours, remove margin around body */
 body {
     background-color: var(--background-primary);
     color: var(--foreground-primary);
     margin: 0;
-}
-header, main, footer {
-    padding: 8px 8px;
 }
 a {
     color: var(--foreground-secondary);
@@ -26,7 +23,7 @@ header, footer {
 /* HEADER */
 header nav div {
     font-size: larger;
-    padding: 4px;
+    padding: 8px;
     border-top: 1px solid var(--foreground-primary);
 }
 /* aktuella sidan */
