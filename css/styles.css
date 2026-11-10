@@ -1,32 +1,36 @@
 :root {
-    --background-primary: #000000;
-    --background-secondary: #000080;
-    --foreground-primary: #ffffff;
-    --foreground-secondary: #00ffff;
+  --background-primary: #000000;
+  --background-secondary: #000080;
+  --foreground-primary: #ffffff;
+  --foreground-secondary: #00ffff;
 }
 
 /* set primary colours, remove margin around body */
 body {
-    background-color: var(--background-primary);
-    color: var(--foreground-primary);
-    margin: 0;
+  background-color: var(--background-primary);
+  color: var(--foreground-primary);
+  margin: 0;
 }
 a {
-    color: var(--foreground-secondary);
+  color: var(--foreground-secondary);
 }
 
 /* set backgrounds/borders of header/footer */
-header, footer {
-    background-color: var(--background-secondary);
+header,
+footer {
+  background-color: var(--background-secondary);
+}
+header {
+  border-bottom: 2px solid var(--foreground-primary);
 }
 
 /* HEADER */
 header nav div {
-    font-size: larger;
-    padding: 8px;
-    border-top: 1px solid var(--foreground-primary);
+  font-size: larger;
+  padding: 8px;
+  border-top: 1px solid var(--foreground-primary);
 }
 /* aktuella sidan */
 header nav > div {
-    background-color: var(--background-primary);
+  background-color: var(--background-primary);
 }
