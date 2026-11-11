@@ -60,9 +60,12 @@ header nav > div {
     header nav {
         display: flex;
         flex-direction: row;
+        width: fit-content;
+        height: 100%; /* verkar inte funka, flyttar knapparna längst ner */
+        align-self: flex-end;
     }
     header nav div {
-        border-top: 0px;
+        border-top: 1px solid var(--foreground-primary);
         border-left: 1px solid var(--foreground-primary); 
         height: 100%;
     }
