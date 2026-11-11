@@ -15,9 +15,10 @@ a {
   color: var(--foreground-secondary);
 }
 
-/* set border-box */
+/* set border-box, limit elements to 100% of width */
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 /* set backgrounds/borders of header/footer */
@@ -33,6 +34,14 @@ footer {
 }
 
 /* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav {
+    width: 100%;
+}
 header nav div {
   font-size: larger;
   padding: 8px;
@@ -45,7 +54,6 @@ header nav > div {
 /* desktop-layout */
 @media (min-width: 600px) {
     header {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -69,7 +77,7 @@ footer {
     padding: 16px;
     width: 100%;
 }
-@media (min-width: 300px) {
+@media (min-width: 400px) {
     footer {
         flex-direction: row;
         justify-content: space-between;
