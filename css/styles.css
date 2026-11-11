@@ -20,11 +20,6 @@ a {
     box-sizing: border-box;
 }
 
-/* make body fill vertical space, so that footer can stick to bottom */
-body {
-    height: 100vh;
-}
-
 /* set backgrounds/borders of header/footer */
 header,
 footer {
@@ -73,8 +68,6 @@ footer {
     gap: 10px;
     padding: 16px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
 }
 @media (min-width: 300px) {
     footer {
