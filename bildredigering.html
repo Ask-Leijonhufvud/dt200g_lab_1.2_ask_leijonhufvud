@@ -12,7 +12,7 @@
   <body>
     <header>
       <!-- logotyp -->
-      <img src="./assets/logo.svg" alt="">
+      <img src="./assets/logo.svg" alt="" />
       <!-- meny -->
       <nav>
         <a href="./"><div>Startsida</div></a>
@@ -23,17 +23,36 @@
     <main id="bildredigering">
       <h1>Bildredigering</h1>
       <!-- tre sektioner med: titel (h2); redigerad och oredigerad bild brevid varandra (figure); textförklaring -->
-       <section>
+      <section>
         <h2>Borttagning av objekt</h2>
         <figure>
-          <img src="./assets/originals/bilserie014.jpg" alt="en byggnad, ett finger syns i vänsterkanten" loading="lazy">
-          <img src="./assets/bildserie014.jpg" alt="samma foto men fingret har tagits bort">
+          <img
+            src="./assets/originals/bilserie014.jpg"
+            alt="en byggnad, himmlen är grön, ett finger syns i vänsterkanten"
+            loading="lazy"
+          />
+          <img
+            src="./assets/bildserie014.jpg"
+            alt="samma foto men himmlen är blå och fingret har tagits bort"
+          />
+          <figcaption>
+            Två versioner av samma fotografi, i den högra har fingret tagits
+            bort.
+          </figcaption>
         </figure>
-       </section>
+        <p>
+          Jag arbetade i GIMP och började med att ta bort fingret, huvudsakligen
+          med hjälp av fuzzy select. Sedan använde jag clone-verktyget för att
+          fylla i hålrummet och sist använde jag heal-verktyget för att fixa
+          artefakter från kloningen. Sist lade jag på ett filter för att skifta
+          färgen på himmlen, jag fick lite problem för när jag skalade ner
+          bilden för att exportera ändrades inte arean som filtret påverkade.
+        </p>
+      </section>
     </main>
     <footer>
       <!-- logotyp -->
-      <img src="./assets/logo.svg" alt="">
+      <img src="./assets/logo.svg" alt="" />
       <!-- navigeringslänkar -->
       <nav>
         <ul>
