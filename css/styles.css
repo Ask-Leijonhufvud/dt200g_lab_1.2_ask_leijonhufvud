@@ -104,3 +104,12 @@ p, h1 {
     display: inline-block;
     max-height: 400px;
 }
+
+/* slideshow in index */
+#bildspel {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 16px;
+    gap: 8px;
+    justify-content: space-around;
+}
