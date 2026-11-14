@@ -113,3 +113,8 @@ p, h1 {
     gap: 8px;
     justify-content: space-around;
 }
+
+/* header bild */
+#header {
+    opacity: 0.5;
+}
