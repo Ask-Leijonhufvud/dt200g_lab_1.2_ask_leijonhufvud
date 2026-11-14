@@ -117,4 +117,5 @@ p, h1 {
 /* header bild */
 #header {
     opacity: 0.5;
+    width: 100%;
 }
